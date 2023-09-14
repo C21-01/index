@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Мій сайт</title>
+    <style>
+        body {
+            background-color: #FFC0CB; /* Рожевий фон всієї сторінки */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #FF1493;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+        }
+
+        .container {
+            display: flex; /* Використовуємо Flexbox для розділення на дві колонки */
+            justify-content: space-between; /* Рівномірний простір між колонками */
+            margin: 10px;
+        }
+
+        .column {
+            flex: 1; /* Кожна колонка займає однакову ширину */
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        aside {
+            background-color: #f5f5f5;
+            padding: 5px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #FF1493;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto; /* Вирівнювання футера по нижньому краю */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1, h2, h3 {
+            margin: 0 auto; /* Горизонтальне центрування заголовків */
+        }
+
+        /* CSS для центрованої останньої секції */
+        .center-section {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Вітаю на моєму сайті!</h1>
+    </header>
+    
+    
+    
+    <div class="container">
+        <div class="column">
+            <section>
+                <h3>Моє хобі</h3>
+                <p>
+		 Подорожі це моя пристрасть. Я обожнюю подорожувати, дізнаватись культуру та звичаї інших країн. Найцікавіше у подорожах несподівані моменти які дарують багато емоцій і кожного разу хочеться повернутись. З цікавими місцями тобі трапляються цікаві люди, дружба з якими може тривати роками. 
+                </p>
+		<img src="https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Філер 2">
+            </section>
+        </div>
+        
+        <div class="column">
+            <aside>
+                <h3>Мої улюблені фільми</h3>
+                <p>Більше всього я люблю фільми у жанрах ??????? та можу виділити декілька стрічок: ????????.<br> Це ті фільми які допомогали мені або просто залишилися у мене в серці назавжди. <br>Як на мене ці стрічки справжній скарб, яким я зобов'язана поділитися.</p>
+                <img src="https://images.pexels.com/photos/2398354/pexels-photo-2398354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Філер 2">
+            </aside>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="https://sweet.tv/movie" target="_blank">Фільми</a></li>
+            <li><a href="https://doba.ua/ukr/blog/10-prichin-pochati-podorozhuvati-pryamo-zaraz.html" ztarget="_blank">Подорожі</a></li>
+        </ul>
+    </nav>
+    <section class="center-section">
+        <h2>Трішки про мене</h2>
+        <ul>
+            <li>ТестТестТест</li>
+            <li>ТестТестТест</li>
+            <li>ТестТестТест</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Анічка</p>
+    </footer>
+</body>
+</html>
